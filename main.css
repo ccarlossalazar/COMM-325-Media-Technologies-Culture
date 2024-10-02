@@ -1,0 +1,122 @@
+ body {
+padding-top: 15px;
+background-size: cover;
+background-image: url("https://img.freepik.com/premium-photo/beige-textured-background_776894-81927.jpg");
+}
+
+.Background {
+    background-size: cover;
+    border: solid black 3px;
+    height: 400; 
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%; 
+    margin-left: -50vw; 
+    margin-right: -50vw; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.pinimg.com/736x/ee/bc/e2/eebce2074e1af715d5b9e15a77446161.jpg");
+}
+
+.Header {
+    object-fit: fill;
+    color: black;
+    text-align: center;
+    h1 {
+        font-size: 60px;
+        text-align: center;
+    }
+    margin-top: 20px;
+    h3{
+        margin-top: 40px;
+        text-align: left;
+    }
+}
+
+.website-entries {
+    header {
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+    header h1 {
+        font-weight: 700;
+        margin: 0;
+      }
+    header .row{
+  display: flex;
+  align-items: center;
+}
+    header nav {
+        display: flex;
+        justify-content: flex-end;
+      }
+      header p {
+        padding: 0 20px;
+        margin: 0;
+      }
+      a {
+        text-decoration: none;
+        }
+        a:visited {
+            color: black;
+        }
+        a:hover {
+            border: solid 2px black;
+            text-decoration: none;
+        }
+        font-size: 15px;
+}
+
+
+.Tabs {
+    text-align: center;
+    color: black;
+    a {
+    text-decoration: underline;
+    }
+    a:visited {
+        color: black;
+    }
+    a:hover {
+        border: solid 2px black;
+        text-decoration: none;
+    }
+    font-size: 25px;
+    padding-bottom: 15px;
+}
+
+.Cinematic-Realism {
+        padding: 30px;
+    hr {
+        height: 3px;
+        background: black;
+        margin-bottom: 20px;
+    }
+    a {
+        color: black;
+    }
+    p {
+        margin: 0;
+        padding: 0;
+        line-height: 1.5;
+    }
+}
+
+hr {
+    border-color: black;
+}
+
+p {
+    padding: 20px;
+    margin: 20px;
+}
+
+.about-page {
+    h1 {
+        color: red;
+    }
+}
+

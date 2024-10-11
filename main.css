@@ -45,6 +45,9 @@ background-image: url("https://img.freepik.com/premium-photo/beige-textured-back
         font-weight: 700;
         margin: 0;
       }
+      header h5 {
+        text-align: start;
+      }
     header .row{
   display: flex;
   align-items: center;
@@ -52,6 +55,7 @@ background-image: url("https://img.freepik.com/premium-photo/beige-textured-back
     header nav {
         display: flex;
         justify-content: flex-end;
+        gap: 15px;
       }
       header p {
         padding: 0 20px;
@@ -68,6 +72,10 @@ background-image: url("https://img.freepik.com/premium-photo/beige-textured-back
             text-decoration: none;
         }
         font-size: 15px;
+        
+        .entries{
+            padding: 30px;
+        }
 }
 
 
@@ -86,10 +94,11 @@ background-image: url("https://img.freepik.com/premium-photo/beige-textured-back
     }
     font-size: 25px;
     padding-bottom: 15px;
+    gap: 15px;
 }
 
 .Cinematic-Realism {
-        padding: 30px;
+    padding: 30px;
     hr {
         height: 3px;
         background: black;
@@ -98,10 +107,10 @@ background-image: url("https://img.freepik.com/premium-photo/beige-textured-back
     a {
         color: black;
     }
-    p {
-        margin: 0;
+    h5 {
+        margin: 20px;
         padding: 0;
-        line-height: 1.5;
+        line-height: 1.25;
     }
 }
 
@@ -116,7 +125,11 @@ p {
 
 .about-page {
     h1 {
-        color: red;
+        color: black;
+        text-align: center;
+    }
+    .img {
+        text-align: center;
     }
 }
 

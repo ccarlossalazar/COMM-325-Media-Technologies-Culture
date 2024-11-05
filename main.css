@@ -1,0 +1,103 @@
+/*body {
+padding-top: 15px;
+background-size: cover;
+background-image: url("https://img.freepik.com/premium-photo/beige-textured-background_776894-81927.jpg");
+}
+
+.Background {
+    background-size: cover;
+    border: solid black 3px;
+    height: 400; 
+    width: 100vw;
+    position: relative;
+    left: 50%;
+    right: 50%; 
+    margin-left: -50vw; 
+    margin-right: -50vw; 
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("https://i.pinimg.com/736x/ee/bc/e2/eebce2074e1af715d5b9e15a77446161.jpg");
+} 
+
+.website-entries {
+    header {
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+    header h1 {
+        font-weight: 700;
+        margin: 0;
+      }
+      header h5 {
+        text-align: start;
+      }
+    header .row{
+  display: flex;
+  align-items: center;
+}
+    header nav {
+        display: flex;
+        justify-content: flex-end;
+        gap: 15px;
+      }
+      header p {
+        padding: 0 20px;
+        margin: 0;
+      }
+      a {
+        text-decoration: none;
+        }
+        a:visited {
+            color: black;
+        }
+        a:hover {
+            border: solid 2px black;
+            text-decoration: none;
+        }
+        font-size: 15px;
+        
+        .entries{
+            padding: 30px;
+        }
+}
+
+.Cinematic-Realism {
+    padding: 30px;
+    hr {
+        height: 3px;
+        background: black;
+        margin-bottom: 20px;
+    }
+    a {
+        color: black;
+    }
+    h5 {
+        margin: 20px;
+        padding: 0;
+        line-height: 1.25;
+    }
+}
+
+.Genre-and-Spectatorship {
+    header{
+        padding-top: 30px;
+        padding-left: 10px;
+    }
+    p {
+        padding: 30px;
+    }
+}
+
+.about-page {
+    h1 {
+        color: black;
+        text-align: center;
+    }
+    .img {
+        text-align: center;
+    }
+} */
+
+

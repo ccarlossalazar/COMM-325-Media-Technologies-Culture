@@ -36,20 +36,28 @@
       gap: 20px;
       background-color: black gray;
     }
+
+    a {
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: overline;
+    }
   </style>
 </head>
 
 <body>
-  <header class="bg-dark bg-gradient text-white p-4">
-    <div class="container">
-      <h1 class="display-4">Carlos Salazar</h1>
-      <div class="nav-container">
-        <a href="about.html" class="nav-item">About</a>
-        <a href="websiteentries.html" class="nav-item">Website Entries</a>
-        <a href="contact.html" class="nav-item">Contact</a>
-      </div>
+  <header style= "width: 100vw" class="p-5 bg-dark bg-gradient">
+    <div class="row"> 
+    <h1 class = "col-sm-3 text-light">Carlos Salazar</h1>
+    <nav class="col-sm-8 d-flex justify-content-end">
+        <a href="about.html" class="me-2" style="color: white">ABOUT ME</a>
+        <a href="websiteentries.html" class="me-2" style="color: white">WEBSITE ENTRIES</a>
+        <a href="contact.html" class="me-2" style="color: white">CONTACT</a>
+    </nav> 
     </div>
-  </header> 
+    </header>
 
   <div class="jumbotron jumbotron-custom">
     <div class="container">

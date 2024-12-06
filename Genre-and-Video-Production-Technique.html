@@ -1,62 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+    
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="style.css" />
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>
+        .video-wrapper {
+            float: left; /* Float the video to the left */
+            margin-right: 15px; /* Space between video and text */
+            margin-bottom: 15px; /* Space at the bottom of the video */
+            width: 45%; /* Set the width of the video to allow the text to wrap */
+        }
+        .clearfix::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+</style>
 </head>
 
-<header style= "width: 100vw" class="p-5 bg-dark bg-gradient">
-    <div class="row"> 
-    <h5 class="col-sm-1">
-    <a href="websiteentries.html" class="btn btn-outline-light btn-md">Back</a>
-    </h5>
-    <h1 class = "col-sm-8 text-light">Genre and Video Production Technique</h1>
+<nav class="navbar navbar-dark bg-dark py-4">
+    <div class="container-fluid d-flex align-items-center"> 
+          <a class="navbar-brand d-flex align-items-center" href="index.html"> 
+            <img src="logo.png" alt="" width="80" height="80" class="d-inline-block align-text-top">
+            <h2 class="ms-2 mb-0" style="text-decoration: none;">Carlos Salazar</h2> 
+          </a>
+    <div class="dropdown">
+        <button class="btn btn-secondary btn-lg dropdown-toggle me-5" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+        Entries
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+        <a href="index.html" class="" style="color: white"><li><button class="dropdown-item" type="button">Home</button></li></a>
+        <li><hr class="dropdown-divider"></li>
+        <a href="Cinematic-Realism.html" class="" style="color: white"><li><button class="dropdown-item" type="button">Website Entry #1</button></li></a>
+        <a href="Genre-and-Spectatorship.html" class="" style="color: white"><li><button class="dropdown-item" type="button">Website Entry #2</button></li></a>
+        <a href="Genre-and-Video-Production-Technique.html" class="" style="color: white"><li><button class="dropdown-item" type="button">Website Entry #3</button></li></a>
+          <li><button class="dropdown-item" type="button">Website Entry #4</button></li>
+        <a href="posthumanism.html" class="" style="color: white"><li><button class="dropdown-item" type="button">Website Entry #5</button></li></a>
+        </ul>
+      </div>
+</div>
+</nav>
+
+<div class="jumbotron jumbotron-entries">
+    <div class="container">
+       <b><h1 class="display-4">Genre and Video Production Technique</h1></b> 
     </div>
-    </header>
+    </div>
 
 <div class="container">
-<div class="row p-4">
-<video controls width="600" height="350" src="Video1.mp4" type="video/mp4" class="col-sm-6"></video>
-<p class="fs-8 col-sm-6">We decided to approach this assignment by using horror as our genre of choice, 
-    with our first video expressing the film concept of continuity. Continuity, 
-    as we spoke in class, is expressed by creating the illusion of continuous time 
-    and space as well as maintaining consistency in a film when it comes to editing 
-    and camera shots. We spoke in class about continuity aiding in the process of 
-    filmmaking to allow for a smooth transition and realistic feel to the audience.
-     We chose to go with a syntactic approach to this assignment by using certain 
-     elements from the horror genre and by applying many of the techniques in continuity. 
-     Firstly, to set the scene we chose a dimly lit apartment which you can visually 
-     see is empty to set the setting and atmosphere of the video. We included a 
-     soundtrack in the back to help establish this spooky feeling throughout the 
-     video to keep the audience engaged. For the opening scene of the video we chose 
-     a longshot to capture the setting which is an apartment and getting the front door 
-     as well as the main character in the shot. There are a number shots we use throughout 
-     the video to aid in the continuity of our short film, consisting of medium shots, 
-     close shots, and match on action shots. Similarly, the camera cuts we chose to go 
-     with really made the video seem seamless and give the effect of ‘invisible cuts’ 
-     while also adding to the overall horror genre and keeping the viewer on their toes. 
-     We were able to also maintain consistency throughout the video for example, when 
-     the main character turns on the lights or where she drops off her luggage when 
-     running down the stairs.
-</p>
-</div>
-<div class="row p-4">
-    <video controls width="600" height="350" src="Video2.mp4" type="video/mp4" class="col-sm-6"></video>
-    <p class="fs-8 col-sm-6">Once again for our montage video we are continuing with our genre 
-        of horror and once again taking a similar approach to the previous video. When it 
-        comes to montage in film you try to use quick cuts to establish a story. In our story
-         we decided to do a montage of the main character searching the house because of a 
-         suspicious noise and checking different areas of the house thoroughly. Once again 
-         to set the setting and the atmosphere of our video we chose to have a dimly lit 
-         setting with little to no light in the background. Similarly, we also chose a 
-         different set of spooky music once again in the background to add a dramatic effect. 
-         Montage in film is used to tell a story or give some backstory quickly. We used the
-          opening scene from up as an example in class which is a great way to show how montage
-           really works in film. This montage allowed for the reader to get some backstory on
+    <div class="clearfix p-4">
+        <!-- Floating video with custom width and margin -->
+        <div class="video-wrapper">
+            <video controls width="100%" height="auto" src="Video1.mp4" type="video/mp4"></video>
+        </div>
+
+        <!-- Paragraph text wraps around the video -->
+        <p class="fs-8">
+            We decided to approach this assignment by using horror as our genre of choice, 
+            with our first video expressing the film concept of continuity. Continuity, 
+            as we spoke in class, is expressed by creating the illusion of continuous time 
+            and space as well as maintaining consistency in a film when it comes to editing 
+            and camera shots. We spoke in class about continuity aiding in the process of 
+            filmmaking to allow for a smooth transition and realistic feel to the audience.
+            We chose to go with a syntactic approach to this assignment by using certain 
+            elements from the horror genre and by applying many of the techniques in continuity. 
+            Firstly, to set the scene we chose a dimly lit apartment which you can visually 
+            see is empty to set the setting and atmosphere of the video. We included a 
+            soundtrack in the back to help establish this spooky feeling throughout the 
+            video to keep the audience engaged. For the opening scene of the video we chose 
+            a longshot to capture the setting which is an apartment and getting the front door 
+            as well as the main character in the shot. There are a number shots we use throughout 
+            the video to aid in the continuity of our short film, consisting of medium shots, 
+            close shots, and match on action shots. Similarly, the camera cuts we chose to go 
+            with really made the video seem seamless and give the effect of ‘invisible cuts’ 
+            while also adding to the overall horror genre and keeping the viewer on their toes. 
+            We were able to also maintain consistency throughout the video for example, when 
+            the main character turns on the lights or where she drops off her luggage when 
+            running down the stairs.
+        </p>
+    </div>
+
+    <!-- Second video and paragraph, same logic applies here -->
+    <div class="clearfix p-4">
+        <div class="video-wrapper">
+            <video controls width="100%" height="auto" src="Video2.mp4" type="video/mp4"></video>
+        </div>
+
+        <p class="fs-8">
+            Once again for our montage video we are continuing with our genre 
+            of horror and once again taking a similar approach to the previous video. When it 
+            comes to montage in film you try to use quick cuts to establish a story. In our story
+            we decided to do a montage of the main character searching the house because of a 
+            suspicious noise and checking different areas of the house thoroughly. Once again 
+            to set the setting and the atmosphere of our video we chose to have a dimly lit 
+            setting with little to no light in the background. Similarly, we also chose a 
+            different set of spooky music once again in the background to add a dramatic effect. 
+            Montage in film is used to tell a story or give some backstory quickly. We used the
+            opening scene from up as an example in class which is a great way to show how montage
+            really works in film. This montage allowed for the reader to get some backstory on
             the main character and was able to set the tone for the film. Through the use of 
             jump cuts we were able to draw our own story of the main character looking for 
             something and quickly checking the entire house. After checking around the house 
             ultimately the main character ends up at the kitchen where he is met with his fate. 
-    </p>
+        </p>
+    </div>
 </div>
 
 <h3 class="p-2">Shotlist:</h3>
@@ -69,4 +119,7 @@
     <img src="video1.jpg" width="600" height="350" class="col-sm-6 border">
     <img src="video2.jpg" width="600" height="350" class="col-sm-6 border">
 </div>
-</div>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+
+</html>

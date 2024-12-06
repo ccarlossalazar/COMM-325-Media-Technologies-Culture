@@ -1,20 +1,41 @@
-<head>
+<!DOCTYPE html>
+<html lang="en">
+    <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <link href="bootstrap.bundle.min.js / bootstrap.bundle.js" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 </head>
 
 <body>
-    <header style= "width: 100vw" class="p-5 bg-dark bg-gradient">
-        <div class="row"> 
-        <h5 class="col-sm-1">
-        <a href="websiteentries.html" class="btn btn-outline-light btn-md">Back</a>
-        </h5>
-        <h1 class = "col-sm-8 text-light">Posthumanism</h1>
+    <nav class="navbar navbar-dark bg-dark py-4">
+        <div class="container-fluid d-flex align-items-center"> 
+              <a class="navbar-brand d-flex align-items-center" href="index.html"> 
+                <img src="logo.png" alt="" width="80" height="80" class="d-inline-block align-text-top">
+                <h2 class="ms-2 mb-0" style="text-decoration: none;">Carlos Salazar</h2> 
+              </a>
+        <div class="dropdown">
+            <button class="btn btn-secondary btn-lg dropdown-toggle me-5" type="button" id="dropdownMenu2" data-bs-toggle="dropdown" aria-expanded="false">
+            Entries
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+            <a href="index.html" class="" style="color: white"><li><button class="dropdown-item" type="button">Home</button></li></a>
+            <li><hr class="dropdown-divider"></li>
+            <a href="Cinematic-Realism.html" class="" style="color: white"><li><button class="dropdown-item" type="button">Website Entry #1</button></li></a>
+            <a href="Genre-and-Spectatorship.html" class="" style="color: white"><li><button class="dropdown-item" type="button">Website Entry #2</button></li></a>
+            <a href="Genre-and-Video-Production-Technique.html" class="" style="color: white"><li><button class="dropdown-item" type="button">Website Entry #3</button></li></a>
+              <li><button class="dropdown-item" type="button">Website Entry #4</button></li>
+            <a href="posthumanism.html" class="" style="color: white"><li><button class="dropdown-item" type="button">Website Entry #5</button></li></a>
+            </ul>
+          </div>
+    </div>
+    </nav>
+
+    <div class="jumbotron jumbotron-entries">
+        <div class="container">
+           <b><h1 class="display-4">Posthumanism</h1></b> 
         </div>
-    </header>
+        </div>
 
     <p style="text-indent: 30px;" class="p-4"> <b>In, <i>How We Became Posthuman</i>, 
         by N. Katherine Hayles, Hayles focuses heavily on the understanding of 
@@ -78,4 +99,6 @@
         </h5>
     </div>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
+</html>

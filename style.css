@@ -5,3 +5,28 @@ a {
   a:hover {
 text-decoration: overline;
   }
+
+  .jumbotron-all { 
+    background-image: url('https://img.freepik.com/free-photo/black-painted-wall-textured-background_53876-110728.jpg?semt=ais_hybrid'); 
+    background-size: cover;
+    background-position: center;
+    color: white;
+    height: 45vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+
+  .jumbotron-entries {
+    background-image: url('https://png.pngtree.com/thumb_back/fw800/background/20231107/pngtree-vintage-film-overlay-grainy-noise-texture-on-aged-white-paper-image_13774427.png'); 
+    background-size: cover;
+    background-position: center;
+    color: black;
+    height: 45vh; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  

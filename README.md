@@ -3,4 +3,4 @@
 website to log our course website entries. The website entries are based on different prompts provided by the instructor. I decided to
 create a simple website that includes a main-page, about-me, contact, and a website entries tab.</p>
 
-<a href= https://ccarlossalazar.github.io/COMM-325-Media-Technologies-Culture/website.html>Link to my finished website.</a>
+<a href= https://ccarlossalazar.github.io/COMM-325-Media-Technologies-Culture/>Link to my finished website.</a>
